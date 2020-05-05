@@ -1,3 +1,6 @@
+скачан у https://github.com/alexey-goloburdin
+
+
 Telegram бот для учёта личных расходов и ведения бюджета, [видео с пояснениями по коду и описание](https://www.youtube.com/watch?v=Kh16iosOTIQ).
 
 
