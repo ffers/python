@@ -21,9 +21,9 @@ API_TOKEN = os.getenv(token)
 #    login=os.getenv("TELEGRAM_PROXY_LOGIN"),
 #    password=os.getenv("TELEGRAM_PROXY_PASSWORD")
 #)
-ACCESS_ID = os.getenv("TELEGRAM_ACCESS_ID")
+ACCESS_ID = os.getenv("196584706")
 
-bot = Bot(token=API_TOKEN, proxy=PROXY_URL, proxy_auth=PROXY_AUTH)
+bot = Bot(token=API_TOKEN)#, proxy=PROXY_URL, proxy_auth=PROXY_AUTH)
 dp = Dispatcher(bot)
 dp.middleware.setup(AccessMiddleware(ACCESS_ID))
 
